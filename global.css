@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-josefin-sans: "Josefin Sans";
+
+  /* font sizes */
+  --font-size-xl-4: 20.4px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gray: #8c8080;
+  --color-royalblue: #5076ff;
+  --color-black: #000;
+}

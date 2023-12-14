@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Josefin Sans:wght@300;400;500;600;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="desktop-2">
+      <main class="desktop-2-child" id="screen main"></main>
+      <h1 class="socioverse-tech-pvt-container" id="copyrights">
+        <p class="socioverse-tech-pvt">©2023 SocioVerse Tech Pvt Ltd</p>
+        <p class="socioverse-tech-pvt">Terms I Privacy</p>
+      </h1>
+      <button class="youtube" autofocus="{true}" id="youtube"></button>
+      <button class="linkedin" autofocus="{true}" id="linkedin"></button>
+      <img
+        class="nected-logo-1-icon"
+        alt=""
+        src="./public/nected-logo-1@2x.png"
+      />
+
+      <b class="join-my-workspace">Join My Workspace Workspace on Nected</b>
+      <div class="rb-mn-invited-container">
+        <span class="rb-mn">rb mn</span>
+        <span>
+          invited you to join My Workspace workspace as an admin. Join now to
+          start collaborating.
+        </span>
+      </div>
+      <div class="wrapper-vector">
+        <img
+          class="vector-icon"
+          alt=""
+          src="./public/vector@2x.png"
+          id="vector"
+        />
+      </div>
+      <div class="have-a-question-container" id="haveAQuestion">
+        <span class="have-a-question-connect-with">
+          <span>Have a question? Connect with us </span>
+          <span class="here">here</span>
+        </span>
+        <span class="here">
+          <span class="span1"> </span>
+        </span>
+      </div>
+      <img
+        class="nected-logo-1-icon1"
+        alt=""
+        src="./public/nected-logo-1@2x.png"
+      />
+
+      <h1 class="th-floor-indiqube" id="adress">
+        11th Floor, Indiqube, Tower B, Vatika Towers Sector 54, Gurugram,
+        Haryana
+      </h1>
+    </div>
+
+    <script>
+      var youtube = document.getElementById("youtube");
+      if (youtube) {
+        youtube.addEventListener("click", function () {
+          window.open("https://www.youtube.com/");
+        });
+      }
+      
+      var linkedin = document.getElementById("linkedin");
+      if (linkedin) {
+        linkedin.addEventListener("click", function () {
+          window.open("https://www.linkedin.com/");
+        });
+      }
+      
+      var vector = document.getElementById("vector");
+      if (vector) {
+        vector.addEventListener("click", function () {
+          window.open("https://www.nected.ai/");
+        });
+      }
+      
+      var haveAQuestion = document.getElementById("haveAQuestion");
+      if (haveAQuestion) {
+        haveAQuestion.addEventListener("click", function () {
+          window.open("contact@techplus.com");
+        });
+      }
+      </script>
+  </body>
+</html>
